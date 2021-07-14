@@ -1,0 +1,44 @@
+.container{
+    display:grid;
+    grid-template-columns: 50% 45% 5%;
+    background-color: #000;
+    align-items: center;
+}
+.navBarSearchBar{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    justify-self: end;
+    padding: 0px 2%;
+}
+.navBarInput{
+    border: none;
+    outline: none;
+}
+.navBarButton{
+    width: 8%;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-image: url("../../assets/lupa.png");
+}
+.divNavBarButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBarButtons{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+#viewNoSelected{
+    color: #fff;
+    font-style: bold;
+}
+#viewSelected{
+    color: #FE7676;
+    font-style: normal;
+}
