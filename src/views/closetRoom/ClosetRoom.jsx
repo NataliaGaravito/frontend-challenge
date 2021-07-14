@@ -1,11 +1,12 @@
 import React from 'react';
-import NavBar from '../../components/navBar/NavBar.jsx'
+import NavBar from '../../components/navBar/NavBar.jsx';
+import Banner from '../../components/banner/Banner.jsx';
 
 function ClosetRoom(){
     return (
         <div className="main-background">
-            <NavBar location={"CLOSET ROOM"}/>
-            <h1>Pagina en construccion</h1>
+            <NavBar location={"closet room"}/>
+            <Banner textBanner={"pagina en construccion"}></Banner>
         </div>)
 }
 

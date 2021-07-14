@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import styles from '../navBar/navBar.module.css';
 
 function NavBar(props){
-    const views = ["SHOP", "INSTAGRAM", "CLOSET ROOM", "VENDEDORAS", "BLOG"];
+    const views = ["shop", "instagram", "closet room", "vendedoras", "blog"];
     return (
-        <div className={styles.container}>
+        <div className={styles.containerNavBar}>
             <div className={styles.divNavBarButtons}>
             {
                 views.map((elem, key)=>{
@@ -13,7 +13,7 @@ function NavBar(props){
                     let viewSelected = props.location === elem ? styles.viewSelected : styles.viewNoSelected
                     return(
                         <Link key={key} to={"/"+elem}>
-                            <button id={viewSelected} className={styles.navBarButtons}>{elem}</button>
+                            <button className={styles.navBarButtons}><p className={viewSelected}>{elem}</p></button>
                         </Link>
                     )    
                 })

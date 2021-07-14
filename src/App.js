@@ -13,19 +13,19 @@ function App() {
         <Route exact path="/">
           <Shop />
         </Route>
-        <Route exact path="/SHOP">
+        <Route exact path="/shop">
           <Shop />
         </Route>
-        <Route exact path="/BLOG">
+        <Route exact path="/blog">
           <Blog />
         </Route>
-        <Route exact path="/CLOSET ROOM">
+        <Route exact path="/closet room">
           <ClosetRoom />
         </Route>
-        <Route exact path="/VENDEDORAS">
+        <Route exact path="/vendedoras">
           <Vendedoras />
         </Route>
-        <Route exact path="/INSTAGRAM"component={() => { 
+        <Route exact path="/instagram" component={() => { 
           window.location.href = 'https://www.instagram.com/'; 
           return null;
         }}/>

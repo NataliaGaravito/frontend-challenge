@@ -1,11 +1,12 @@
 import React from 'react';
 import NavBar from '../../components/navBar/NavBar.jsx';
+import Banner from '../../components/banner/Banner.jsx';
 
 function Blog(){
     return (
         <div className="main-background">
-            <NavBar location={"BLOG"}/>
-            <h1>Pagina en construccion</h1>
+            <NavBar location={"blog"}/>
+            <Banner textBanner={"pagina en construccion"}></Banner>
         </div>)
 }
 

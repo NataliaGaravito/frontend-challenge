@@ -1,11 +1,11 @@
-.container{
+.containerNavBar{
     display:grid;
-    grid-template-columns: 50% 45% 5%;
+    grid-template-columns: 50% 46% 4%;
     background-color: #000;
     align-items: center;
 }
 .navBarSearchBar{
-    width: 50%;
+    width: 33%;
     height: 40%;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,9 @@
     outline: none;
 }
 .navBarButton{
-    width: 8%;
+    width: 13%;
+    height: 75%;
+    align-self: center;
     background-size: cover;
     border: none;
     background-color: transparent;
@@ -28,17 +30,24 @@
 .divNavBarButtons{
     display: flex;
     justify-content: space-evenly;
+    padding-left: 3rem;
 }
 .navBarButtons{
     background-color: transparent;
     border: none;
     color: #fff;
 }
-#viewNoSelected{
-    color: #fff;
-    font-style: bold;
+.viewNoSelected{
+    color: #fff;  
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
 }
-#viewSelected{
+
+.viewSelected{
     color: #FE7676;
     font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
 }
