@@ -2,3 +2,40 @@
     display:grid;
     grid-template-rows: 10% 90%;
 }
+.recienLlegados{
+    display: flex;
+    justify-content: center;    
+}
+.recienLlegados span {
+    font-size:5rem;
+    font-style: normal;
+    font-weight: 300;
+}
+.recien{
+    text-transform: uppercase;
+    color: #FE7676;
+    text-align: center;
+    font-size: 2rem;
+}
+.llegados{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.containerRecienLlegados span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5.44445px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+.containerRecienLlegados{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 2%;
+}
