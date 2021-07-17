@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../../components/navBar/NavBar.jsx';
 import Banner from '../../components/banner/Banner.jsx';
 import styles from '../shop/shop.module.css'
+import Products from '../../components/Products/Products.jsx';
 
 function Shop(){
     const sendBanner = <div><span>te regalamos</span><br/><span>en tu primera</span><br/><span>compra</span></div>
@@ -15,7 +16,7 @@ function Shop(){
                 </div>                    
                 <span>lo último de nuestra tienda</span>
             </div> 
-        
+            <Products></Products>
         </div>)
 }
 
