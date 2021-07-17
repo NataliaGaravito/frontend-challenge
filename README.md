@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# FrontEnd Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este reto es realizado en el proceso de simulacion de entrevista tecnica de Laboratoria, los diseños son presentados por el entrevistador, en los cuales me baso para realizar este proyecto y se muestran en la siguiente imagen.
 
-## Available Scripts
+<img src="src\assets\frontend-challenge.png"/>
 
-In the project directory, you can run:
+El proyecto está basado en las siguientes vistas
 
-### `npm start`
+## Shop 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esta vista esta basada en la primera imagen, tiene como funcionalidad la compra de ropa femenina, como primera medida se puede observar un banner con una promocion por la primera compra de cualquier producto.
+Posteriormente se encuentra los productos de venta, con el nombre del producto, la talla, la marca, el precio y un boton en la parte inferior para añadir el producto. 
+Se puede observar de igual manera un boton flotante con una imagen de un carro de compras, al seleccionarlo se despliega un popUp con todos los productos añadidos, el precio de cada uno y el precio total de la compra. En cada producto se encuentra dos botones de cada lado de la cantidad, los cuales permiten incrementar o decrementar la cantidad del producto, el valor el precio cambiara al igual que el valor del total de la compra. En este popUp tambien se encuentra un boton en la parte superior derecha el cual cierra dicho popUp, pero sin borrar el acumulado de la compra. 
+Ademas en la parte inferior, hay un boton que dice compra, al presionarlo el acumulado de la compra queda borrado.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Closet Room, Vendedoras, Blog
 
-### `npm test`
+Estas tres vistas aparacen con la msima imagen de banner que, en la vista de Shop, pero el letrero indica que estas paginas estan en cosntruccion. Esto se realizo para poder implementar routing de las paginas y reutilizar componentes. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instagram
 
-### `npm run build`
+Esta vista redirige a la aplicacion Instagram, pero sin ningun perfil en especifico, se hizo con el objetivo de hacer hacer uso de routing, pero de diferentes paginas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Barra de navegación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Como se puede observar en cada una de las vistas, exceptuando la de instagram. Aparece una barra de navegacion, esta se reutiliza como componente en cada una de las vistas, y cambia el resaltado de los titulos dependiendo de la vista en la que usuario se encuentre.
