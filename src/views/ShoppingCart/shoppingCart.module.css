@@ -1,0 +1,116 @@
+.containerShopping{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+    background-color:#fff;
+    display: grid;
+    grid-template-rows: 10% 60% 15% 15%;
+}
+.containerShopping h1{
+    padding-left: 4rem;
+}
+.title{
+    display:grid;
+    grid-template-columns:95% 5%;
+    justify-items: center;
+}
+.detailsProduct{
+    display:grid;
+    grid-template-columns: 70% 20% 10%;
+    padding: 2rem;
+}
+.detailsProduct p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+.total{
+    display: grid;
+    grid-template-columns: 86% 14%;
+    justify-items: flex-end;
+    padding-top: 2rem;
+}
+.total h1{
+    justify-self: flex-end;
+    padding: 0px 7rem 0px 0px;
+    align-self: center;
+}
+.total p{
+    justify-self: flex-start;
+    padding: 0px 0.5rem;
+    align-self: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+.addProduct{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
+}
+.changeAmmount{
+    border: none;
+    background-color: #FFC8C8;
+    border-radius: 50%;
+    height: 65%;
+    width: 20%;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.changeAmmount:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.changeAmmount:hover{
+    filter: drop-shadow(0 0 0.95rem #FE7676);
+}
+.changeAmmount span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem
+}
+.products{
+    overflow: auto;
+}
+.closePopUp{
+    border-radius: 50%;
+    border: none;
+    align-self: center;
+    width:50%;
+    height:40%;
+    background-color: #FFC8C8;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.closePopUp:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.closePopUp:hover{
+    filter: drop-shadow(0 0 0.95rem #FE7676);
+}
+.buy{
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 8rem;
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+    background-color: #FFC8C8;
+}
+.buy:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.buy:hover{
+    filter: drop-shadow(0 0 0.95rem #FE7676);
+}
+.buy span{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem
+}
