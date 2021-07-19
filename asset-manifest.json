@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nataliagaravito.github.io/frontend-challenge/static/css/main.e7cecc70.chunk.css",
-    "main.js": "/nataliagaravito.github.io/frontend-challenge/static/js/main.e425ecc6.chunk.js",
-    "main.js.map": "/nataliagaravito.github.io/frontend-challenge/static/js/main.e425ecc6.chunk.js.map",
+    "main.js": "/nataliagaravito.github.io/frontend-challenge/static/js/main.ca66c7fe.chunk.js",
+    "main.js.map": "/nataliagaravito.github.io/frontend-challenge/static/js/main.ca66c7fe.chunk.js.map",
     "runtime-main.js": "/nataliagaravito.github.io/frontend-challenge/static/js/runtime-main.9fccb6c3.js",
     "runtime-main.js.map": "/nataliagaravito.github.io/frontend-challenge/static/js/runtime-main.9fccb6c3.js.map",
     "static/js/2.5227a573.chunk.js": "/nataliagaravito.github.io/frontend-challenge/static/js/2.5227a573.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.9fccb6c3.js",
     "static/js/2.5227a573.chunk.js",
     "static/css/main.e7cecc70.chunk.css",
-    "static/js/main.e425ecc6.chunk.js"
+    "static/js/main.ca66c7fe.chunk.js"
   ]
 }
