@@ -11,7 +11,7 @@ function NavBar(props){
                 views.map((elem, key)=>{
                     let viewSelected = props.location === elem ? styles.viewSelected : styles.viewNoSelected
                     return(
-                        <Link key={key} to={"/"+elem}>
+                        <Link key={key} to={"/#/"+elem}>
                             <button className={styles.navBarButtons}><p className={viewSelected}>{elem}</p></button>
                         </Link>
                     )    
