@@ -10,22 +10,22 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/#/">
+        <Route exact path="/">
           <Shop />
         </Route>
-        <Route exact path="/#/shop">
+        <Route path="/shop">
           <Shop />
         </Route>
-        <Route exact path="/#/blog">
+        <Route path="/blog">
           <Blog />
         </Route>
-        <Route exact path="/#/closet room">
+        <Route path="/closet room">
           <ClosetRoom />
         </Route>
-        <Route exact path="/#/vendedoras">
+        <Route path="/vendedoras">
           <Vendedoras />
         </Route>
-        <Route exact path="/#/instagram" component={() => { 
+        <Route path="/instagram" component={() => { 
           window.location.href = 'https://www.instagram.com/'; 
           return null;
         }}/>
