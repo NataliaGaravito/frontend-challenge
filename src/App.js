@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/frontend-challenge">
       <Switch>
         <Route exact path="/">
           <Shop />
