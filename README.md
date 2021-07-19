@@ -21,6 +21,4 @@ Estas tres vistas aparacen con la msima imagen de banner que, en la vista de Sho
 
 Esta vista redirige a la aplicacion Instagram, pero sin ningun perfil en especifico, se hizo con el objetivo de hacer hacer uso de routing, pero de diferentes paginas.
 
-## Barra de navegación
 
-Como se puede observar en cada una de las vistas, exceptuando la de instagram. Aparece una barra de navegacion, esta se reutiliza como componente en cada una de las vistas, y cambia el resaltado de los titulos dependiendo de la vista en la que usuario se encuentre.
